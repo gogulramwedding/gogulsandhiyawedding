@@ -3,7 +3,7 @@ import mainImage from "../assets/CoverImage1.jpg";
 import mainImage2 from "../assets/mainImage2.jpg";
 import mainImage3 from "../assets/mainImage3.jpg";
 // import mainImage4 from "../assets/mainImage4.jpg";
-import mainImage5 from "../assets/mainImage5.jpg";
+import mainImage5 from "../assets/mainImage51.jpg";
 
 import adio from "../assets/Mangalyam.mp3";
 import ReactPlayer from "react-player";
