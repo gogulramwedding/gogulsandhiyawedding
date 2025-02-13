@@ -8,8 +8,8 @@ import mainImage5 from "../assets/mainImage5.jpg";
 import adio from "../assets/Mangalyam.mp3";
 import ReactPlayer from "react-player";
 import maps from "../assets/map2.png";
-import groomInvi from "../assets/FamilyInvitation.pdf";
-import brideInvi from "../assets/FriendsInvitation.pdf";
+import groomInvi from "../assets/FamilyInvitation2.pdf";
+import brideInvi from "../assets/FriendsInvitation2.pdf";
 
 function Mainpage() {
   useEffect(() => {
@@ -97,14 +97,14 @@ function Mainpage() {
         </p>
 
         <p className="text-center mb-3 text-[#8162a2]">&#x2764; &#x2764; </p>
-        <div className="w-full h-52 lg:h-96 my-0 mx-auto relative">
-          <p className="text-center mb-1 text-white font-bold text-3xl lg:text-4xl absolute top-0 w-full">
-            We Are Getting Married
-          </p>
+        <div className="w-full h-56 lg:h-full my-0 mx-auto relative">
           <img
-            src={mainImage}
+            src={mainImage5}
             className="w-full h-full object-cover rounded-md"
           />
+          <p className="text-center mb-1 text-white font-bold text-3xl lg:text-4xl absolute bottom-0 w-full">
+            We Are Getting Married
+          </p>
           <div className="bg-[#000000a8] absolute w-full h-full top-0 rounded-md"></div>
         </div>
         <div className="m-4 text-center text-[#8162a2] font-semibold">
