@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 function Splash() {
   const [load, setLoad] = useState(true);
   useEffect(() => {
-    setTimeout(myfunction, 5000);
+    setTimeout(myfunction, 3000);
   }, []);
   function myfunction() {
     setLoad(false);
